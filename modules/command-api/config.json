@@ -1,0 +1,7 @@
+{
+    "name": "command-api",
+    "scripts": {
+        "start": "npm start"
+    },
+    "base_url": "http://localhost:4001"
+}

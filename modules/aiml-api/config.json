@@ -1,0 +1,14 @@
+{
+    "name": "aiml-api",
+    "scripts": {
+        "start": "python main.py"
+    },
+    "base_url": "http://localhost:4002",
+    "commands": {
+        "aiml_converse": {
+            "endpoint": "/aiml",
+            "httpMethod": "GET",
+            "displayStyle": "default"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "database-api",
+    "scripts": {
+        "start": "python main.py"
+    },
+    "base_url": "http://localhost:5000",
+    "commands": {}
+}

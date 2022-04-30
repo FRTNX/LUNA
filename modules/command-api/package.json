@@ -1,0 +1,11 @@
+{
+  "name": "command-api",
+  "version": "1.0.0",
+  "description": "This API serves as Luna's main router, accepting text from the client, sending it to the relevant api, then returning the response to the client.",
+  "main": "index.js",
+  "author": "Busani Ndlovu (FRTNX)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server.js"
+  }
+}

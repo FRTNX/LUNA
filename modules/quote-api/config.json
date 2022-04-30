@@ -1,0 +1,15 @@
+{
+    "name": "quote-api",
+    "scripts": {
+        "start": "npm start"
+    },
+    "base_url": "http://localhost:4003",
+    "commands": {
+        "fetch_quote": {
+            "endpoint": "/quote",
+            "httpMethod": "GET",
+            "displayStyle": "matrix",
+            "triggers": ["quote"]
+        }
+    }
+}

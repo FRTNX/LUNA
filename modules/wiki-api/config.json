@@ -1,0 +1,28 @@
+{
+    "name": "wikipedia-api",
+    "scripts": {
+        "start": "npm start"
+    },
+    "base_url": "http://localhost:4004",
+    "commands": {
+        "fetch_wiki_page": {
+            "endpoint": "/wikipedia",
+            "httpMethod": "GET",
+            "displayStyle": "default",
+            "displayIcon": "\u269B   ",
+            "triggers": ["wikipedia", "wp"]
+        },
+        "search_wiki_db": {
+            "endpoint": "/wikisearch",
+            "httpMethod": "GET",
+            "displayStyle": "list",
+            "triggers": ["search", "s"]
+        },
+        "reading_list": {
+            "endpoint": "/wikirandomlist",
+            "httpMethod": "GET",
+            "displayStyle": "list",
+            "triggers": ["reading-list", "rl"]
+        }
+    }
+}
